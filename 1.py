@@ -8,3 +8,4 @@ b=tf.constant(np.array([4.,5.,6.]))
 c=tf.tensordot(a,b,1)
 
 output = c.numpy()
+print(output)
